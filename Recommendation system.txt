@@ -1,0 +1,16 @@
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_credits.csv
+
+Types of recommendation system:
+1. Content based(similarity of content)
+2. Collabarative filtering(behaviour of users)
+eg: if A and B have 90% similaruty match, if A watch a movie that will be recommended to B as well
+3. Hybrid: I guess, 
+once A movie is recommended to B, if it is similar to B's content that will be recommended.
+
+Project Flow:
+Data-preprocessing-model-converttowebsite-deploy
+
+ pip list --format=freeze > requirements.txt
+conda list --export-format=yaml | grep -E "^name:|^version:" | awk '{print $2}' | paste -d "==" - - > requirements.txt
+
+
