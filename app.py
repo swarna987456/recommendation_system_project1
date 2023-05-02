@@ -20,6 +20,8 @@ def recommend(movie):
 
 st.title('Movie Recommender System')
 
+st.write('This app uses advanced algorithms and machine learning to analyze movies and recommends new movies that are similar in content and style to the movies you already like')
+
 option = st.selectbox(
     'Select your favourite movie to watch',
     movies['title'])
